@@ -1,7 +1,38 @@
 @charset "UTF-8";
 
+body {
+   /* background-image: url("strick_stk.png");*/
+   background-color: greenyellow;
+   color: rgba(0, 0, 0, 1);
+}
 
-body{
-    background-image: url("strick_stk.png");
-    color:floralwhite;
+#cabecalho {
+   /*style="text-align: center;"*/
+}
+
+a{
+ text-decoration: unset;
+ color: blue;
+}
+
+#barra_de_navegacao{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#zonas{
+   display: flex;
+   justify-content: center;
+}
+
+.img_destaque{
+   width: 50%;
+   margin-left: 20%;
+   margin-bottom: 10px;
+}
+
+.texto_destaque{
+   text-align: center;
+   font-size: 30px;
 }
